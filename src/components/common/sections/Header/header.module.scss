@@ -1,0 +1,22 @@
+.container {
+ @apply fixed flex justify-between w-screen backdrop-blur-sm bg-white/30 px-4;
+
+ h1 {
+  @apply text-white text-[32px];
+ }
+
+ .btn {
+  @apply bg-teal-600 mt-1;
+ }
+
+ .navList {
+  @apply flex flex-row space-x-6 items-center;
+ }
+
+ span {
+  @apply capitalize inline-block text-white text-[18px] relative cursor-pointer transition-all duration-500 before:content-[''] before:absolute before:-bottom-2 before:left-0
+  before:-translate-x-1/2 before:w-0 before:h-1.5 before:opacity-0 before:transition-all before:duration-500 before:bg-teal-600 hover:before:w-full hover:before:opacity-100;
+ }
+}
+
+
