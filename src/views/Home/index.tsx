@@ -3,7 +3,7 @@ import { Heading } from '@chakra-ui/react'
 import {NextPage} from 'next'
 import { memo } from 'react'
 
-const Dashboard: NextPage = () => {
+const Home: NextPage = () => {
  return (
   <MainNav>
     <Heading as='h1' size='4xl' pt={20} noOfLines={1}>
@@ -43,4 +43,4 @@ const Dashboard: NextPage = () => {
  )
 }
 
-export default memo(Dashboard)
+export default memo(Home)
