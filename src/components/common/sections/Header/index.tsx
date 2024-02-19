@@ -5,11 +5,12 @@ import { Button } from '@chakra-ui/react'
 const Header: React.FC = () => {
 	return (
 		<div className={clsx(styles.container)}>
-				<h1>JTL</h1>
+				<h1>JuliusL.</h1>
     <div className={clsx(styles.navList)}>
-     <span>About</span>
-     <span>Experiences</span>
-     <span>Project</span>
+     <span>About me</span>
+     <span>Tech Stack</span>
+     <span>Projects</span>
+     <span>Resume</span>
      <Button colorScheme='teal' size='sm'>Contact</Button>
     </div>
 		</div>

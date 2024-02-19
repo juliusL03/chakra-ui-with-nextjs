@@ -1,5 +1,5 @@
 .container {
- @apply fixed flex justify-between w-screen backdrop-blur-sm bg-white/30 px-4;
+ @apply fixed flex justify-between w-screen opacity-100 py-4 px-56;
 
  h1 {
   @apply text-white text-[32px];

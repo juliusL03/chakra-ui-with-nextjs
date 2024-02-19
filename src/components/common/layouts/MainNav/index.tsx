@@ -5,6 +5,7 @@ import {getTitle} from '@/utils/helpers/title'
 
 import Container from './Container'
 import Header from '../../sections/Header'
+import Content from './Content'
 
 type Props = {
 	children: React.ReactNode
@@ -20,7 +21,9 @@ const MainNav: React.FC<Props> = ({children}) => {
 			</Head>
 			<Container className="h-screen overflow-y-scroll">
     <Header />
-    {children}
+    <Content>
+     {children}
+    </Content>
     </Container>
 		</div>
 	)
